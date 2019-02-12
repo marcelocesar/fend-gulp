@@ -1,0 +1,11 @@
+$color-primary: red;
+
+body {
+    background-color: $color-primary;
+    padding: 20%;
+}
+
+.container {
+    border-radius: 10px;
+    filter:  invert(1);
+}

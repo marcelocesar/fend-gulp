@@ -4,8 +4,8 @@
   "description": "Gulp - Web Tooling &amp; Automation",
   "main": "index.js",
   "scripts": {
-    "start": "/node_modules/gulp/bin/gulp.js",
-    "gulp": "/node_modules/gulp/bin/gulp.js",
+    "start": "./node_modules/gulp/bin/gulp.js",
+    "gulp": "./node_modules/gulp/bin/gulp.js",
     "gulp:sass": "./node_modules/gulp/bin/gulp.js sass",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,6 +22,7 @@
   "homepage": "https://github.com/marcelocesar/fend-gulp#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
     "gulp-sass": "^4.0.2"
   }
 }
