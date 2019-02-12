@@ -4,7 +4,7 @@ const autoprefixer = require('gulp-autoprefixer');
 
 
 gulp.task('default', function() {
-    console.log('Hello, Gulp!');
+    gulp.watch('./app/sass/**/*',['sass']);
 });
 
 gulp.task('sass', function() {
@@ -15,8 +15,4 @@ gulp.task('sass', function() {
             cascade: false
         }))
         .pipe(gulp.dest('./app/css'))
-})
-
-gulp.task('dev', function () {
-    gulp.watch('./app/sass/**/*',['sass']);
 })
