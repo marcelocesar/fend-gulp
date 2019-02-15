@@ -21,8 +21,14 @@
   },
   "homepage": "https://github.com/marcelocesar/fend-gulp#readme",
   "devDependencies": {
+    "browser-sync": "^2.26.3",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^6.0.0",
-    "gulp-sass": "^4.0.2"
-  }
+    "gulp-eslint": "^5.0.0",
+    "gulp-jasmine-phantom": "^3.0.0",
+    "gulp-sass": "^4.0.2",
+    "jasmine": "^2.3.4",
+    "phantomjs": "^2.1.7"
+  },
+  "dependencies": {}
 }
